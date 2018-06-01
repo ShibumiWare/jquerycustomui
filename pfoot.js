@@ -14,6 +14,15 @@ $(document).ready(function () {
         $('.blog-pager').hide();
         $('#HTML1').hide();
         $('#Text1').hide();
+        
+        var mask = $('#mask');
+        if (mask !== null && typeof mask !== 'undefined') {
+
+            setTimeout(function() {
+                    mask.hide();
+                },
+                 500);
+        }
     } else {
         $('.column-right-outer').show();
         $('.fauxcolumn-inner').show();
@@ -22,15 +31,5 @@ $(document).ready(function () {
         $('#Text1').show();
         //$('.feed-links').show();
         //$('.post-footer').show();
-    }
-    
-    var mask = $('#mask');
-
-    if (mask !== null && typeof mask !== 'undefined') {
-
-        setTimeout(function() {
-                mask.hide();
-            },
-             500);
-    }
+    }    
 });
