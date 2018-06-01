@@ -12,16 +12,16 @@ $(document).ready(function () {
         $('.blog-pager').hide();
         $('#HTML1').hide();
         $('#Text1').hide();
-        $('feed-links').hide();
-        $('post-footer').hide();
+        $('.feed-links').hide();
+        $('.post-footer').hide();
     } else {
         $('.column-right-outer').show();
         $('.fauxcolumn-inner').show();
         $('.blog-pager').show();
         $('#HTML1').show();
         $('#Text1').show();
-        $('feed-links').show();
-        $('post-footer').show();
+        $('.feed-links').show();
+        $('.post-footer').show();
     }
 });
 
