@@ -5,7 +5,7 @@ $(document).ready(function () {
     $('.feed-links').hide();
     $('.post-footer').hide();
     
-    if (window.location.href !== 'http://www.red-stone-rising.com/') {
+    if (window.location.href !== 'http://www.red-stone-rising.com/' || window.location.href !== 'http://www.red-stone-rising.com') {
         $('.column-right-outer').hide();
         $('.fauxcolumn-inner').hide();
         $('.column-center-inner').css('width', '800px');
