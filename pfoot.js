@@ -1,6 +1,8 @@
 
 $(document).ready(function () {
-
+    
+    $('.footer-outer').css('border', '0');
+    
     if (window.location.href !== 'http://www.red-stone-rising.com/') {
         $('.column-right-outer').hide();
         $('.fauxcolumn-inner').hide();
