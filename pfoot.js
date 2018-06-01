@@ -31,7 +31,6 @@ $(document).ready(function () {
         setTimeout(function() {
                 mask.hide();
             },
-             1000);
+             500);
     }
 });
-
