@@ -9,11 +9,13 @@ $(document).ready(function () {
         $('.post-outer').css('padding-left', '50px');
         $('.blog-pager').hide();
         $('#HTML1').hide();
+        $('widget Text').hide();
     } else {
         $('.column-right-outer').show();
         $('.fauxcolumn-inner').show();
         $('.blog-pager').show();
         $('#HTML1').show();
+        $('widget Text').show();
     }
 });
 
