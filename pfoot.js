@@ -23,5 +23,15 @@ $(document).ready(function () {
         //$('.feed-links').show();
         //$('.post-footer').show();
     }
+    
+    var mask = $('#mask');
+
+    if (mask !== null && typeof mask !== 'undefined') {
+
+        setTimeout(function() {
+                mask.hide();
+            },
+             1000);
+    }
 });
 
