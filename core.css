@@ -1307,8 +1307,8 @@ a.ui-button:active,
 	filter: Alpha(Opacity=30); /* support: IE8 */
 }
 .ui-widget-shadow {
-	-webkit-box-shadow: 0px 0px 5px #666666;
-	box-shadow: 0px 0px 5px #666666;
+	-webkit-box-shadow: 0 0 5px #666666;
+	box-shadow: 0 0px 5px #666666;
 }div.widget > h2, div.widget h2.title {
     margin: 0 0 1em 0;
     font: normal bold 15px 'Play',Trebuchet,Verdana,sans-serif;
