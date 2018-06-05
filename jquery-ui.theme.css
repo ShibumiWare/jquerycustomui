@@ -1,31 +1,15 @@
-/*!
- * jQuery UI CSS Framework 1.12.1
- * http://jqueryui.com
- *
- * Copyright jQuery Foundation and other contributors
- * Released under the MIT license.
- * http://jquery.org/license
- *
- * http://api.jqueryui.com/category/theming/
- *
- * To view and modify this theme, visit http://jqueryui.com/themeroller/?scope=&folderName=blitzer&cornerRadiusShadow=8px&offsetLeftShadow=-8px&offsetTopShadow=-8px&thicknessShadow=8px&opacityShadow=10&bgImgOpacityShadow=0&bgTextureShadow=flat&bgColorShadow=333333&opacityOverlay=40&bgImgOpacityOverlay=65&bgTextureOverlay=dots_small&bgColorOverlay=a6a6a6&iconColorError=cc0000&fcError=2e2e2e&borderColorError=cc0000&bgImgOpacityError=75&bgTextureError=diagonals_thick&bgColorError=f3d8d8&iconColorHighlight=004276&fcHighlight=444444&borderColorHighlight=fcd3a1&bgImgOpacityHighlight=55&bgTextureHighlight=glass&bgColorHighlight=fbf8ee&iconColorActive=cc0000&fcActive=cc0000&borderColorActive=eeeeee&bgImgOpacityActive=65&bgTextureActive=flat&bgColorActive=ffffff&iconColorHover=cc0000&fcHover=111111&borderColorHover=cdd5da&bgImgOpacityHover=100&bgTextureHover=highlight_hard&bgColorHover=f6f6f6&iconColorDefault=cc0000&fcDefault=004276&borderColorDefault=d8dcdf&bgImgOpacityDefault=100&bgTextureDefault=highlight_hard&bgColorDefault=eeeeee&iconColorContent=cc0000&fcContent=333333&borderColorContent=eeeeee&bgImgOpacityContent=75&bgTextureContent=flat&bgColorContent=ffffff&iconColorHeader=ffffff&fcHeader=ffffff&borderColorHeader=e3a1a1&bgImgOpacityHeader=15&bgTextureHeader=highlight_soft&bgColorHeader=cc0000&cornerRadius=6px&fsDefault=1.1em&fwDefault=bold&ffDefault=Arial%2Csans-serif
- */
-
-
-/* Component containers
-----------------------------------*/
 .ui-widget {
-	font-family: Arial,sans-serif;
-	font-size: 1.1em;
+    font-family: Play, calibri, Arial,sans-serif;
+    font-size: .8em;
 }
 .ui-widget .ui-widget {
-	font-size: 1em;
+	font-size: .8em;
 }
 .ui-widget input,
 .ui-widget select,
 .ui-widget textarea,
 .ui-widget button {
-	font-family: Arial,sans-serif;
+	font-family:Play, Calibri, Arial,sans-serif;
 	font-size: 1em;
 }
 .ui-widget.ui-widget-content {
@@ -41,7 +25,7 @@
 }
 .ui-widget-header {
 	border: 1px solid #e3a1a1;
-	background: #c30d0d url("images/ui-bg_highlight-soft_15_cc0000_1x100.png") 50% 50% repeat-x;
+	background: #c30d0d url("https://drive.google.com/uc?export=download&id=1lv7gcMKIdYvH0R3KAoEH8d3QC_AgxOxs") 50% 50% repeat-x;
 	color: #ffffff;
 	font-weight: bold;
 }
@@ -61,7 +45,7 @@ works properly when clicked or hovered */
 html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
 	border: 1px solid #d8dcdf;
-	background: #eeeeee url("images/ui-bg_highlight-hard_100_eeeeee_1x100.png") 50% 50% repeat-x;
+	background: #eeeeee url("https://drive.google.com/uc?export=download&id=1lo_g95J-TdvKnIGWgOoaWiqXkZF3LGhG") 50% 50% repeat-x;
 	font-weight: bold;
 	color: #004276;
 }
@@ -84,7 +68,7 @@ a:visited.ui-button,
 .ui-button:hover,
 .ui-button:focus {
 	border: 1px solid #cdd5da;
-	background: #f6f6f6 url("images/ui-bg_highlight-hard_100_f6f6f6_1x100.png") 50% 50% repeat-x;
+	background: #f6f6f6 url("https://drive.google.com/uc?export=download&id=1lrPFLVeG4z4EuI3nhhio4-5T5PCNYKAG") 50% 50% repeat-x;
 	font-weight: bold;
 	color: #111111;
 }
