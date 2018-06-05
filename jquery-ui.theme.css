@@ -12,9 +12,9 @@
 	font-family:Play, Calibri, Arial,sans-serif;
 	font-size: 1em;
 }
-.ui-widget.ui-widget-content {
-	border: 1px solid #d8dcdf;
-}
+    .ui-widget.ui-widget-content {
+        border: 1px solid #0C4D69;
+    }
 .ui-widget-content {
 	border: 1px solid #eeeeee;
 	background: #ffffff;
