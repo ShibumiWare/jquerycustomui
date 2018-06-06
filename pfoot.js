@@ -4,6 +4,7 @@ $(document).ready(function() {
     $(".footer-outer").css("border", "0");
     $(".feed-links").hide();
     $(".post-footer").hide();
+    $("#header-inner first:a").css('margin-left', '45px');
 
     if (window.location.href === "http://www.red-stone-rising.com/" ||
         window.location.href === "http://www.red-stone-rising.com") {
