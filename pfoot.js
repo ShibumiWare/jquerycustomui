@@ -29,7 +29,7 @@ $(document).ready(function() {
             setTimeout(function() {
                     mask.hide();
                 },
-                500);
+                250);
         }
     }
 });
