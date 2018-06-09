@@ -1,0 +1,96 @@
+
+    p {
+        display: block;
+        -webkit-margin-before: 1px;
+        -webkit-margin-after: 1px;
+        -webkit-margin-start: 0;
+        -webkit-margin-end: 0;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
+    .bioImage {
+        float: left;
+        height: 376px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        width: 250px;
+    }
+
+    .lilyMedia {
+        font-family: 'Tangerine', cursive;
+        font-size: 36pt;
+        font-weight: 300;
+    }
+
+        .lilyMedia a {
+            text-decoration: none;
+        }
+
+    .bioParagrah {
+        line-height: 1.3
+    }
+
+    widget .post-body ul {
+        line-height: 1.4;
+        margin: .5em 0;
+        padding: 0 2.5em;
+    }
+
+    .ui-tabs .ui-tabs-nav {
+        background: #0C4D69;
+        margin: 0;
+        padding: .2em .2em 0;
+        padding: 2px;
+    }
+
+    .bioSubSectionHeader {
+        font-size: 18px;
+    }
+
+    .bioSmallText {
+        font-size: 10px
+    }
+
+    .contributorName {
+        margin-bottom: 20px
+    }
+
+    .contributorQuote {
+        color: #0C4D69;
+        float: left;
+        font-family: cursive;
+    }
+
+    .forthcomingWork {
+        color: #0C4D69;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+        .forthcomingWork:first-child {
+            margin-top: -5px;
+        }
+
+    .currentwork a:any-link {
+        color: #c30d0d;
+        font-size: 16px;
+        text-decoration: underline;
+    }
+
+    .floatLeft {
+        float: left
+    }
+
+    .tabHeader {
+        height: 26px
+    }
+
+    .tabContainer {
+        height: 1100px;
+        width: 900px
+    }
+
+    .workOverview {
+        margin-bottom: 20px;
+    }
